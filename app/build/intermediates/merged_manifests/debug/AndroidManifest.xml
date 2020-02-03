@@ -18,8 +18,12 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.furucasper.eastersunday.EasterShow" />
-        <activity android:name="com.furucasper.eastersunday.MainActivity" >
+        <activity
+            android:name="com.furucasper.eastersunday.EasterShow"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.furucasper.eastersunday.MainActivity"
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
