@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Easter Sunday</string>
+    <string name="appName">easter:\nsunday</string>
+    <string name="dev_credit">powered by Furucasper.</string>
+    <string name="zero_4">0000</string>
+    <string name="back">back</string>
+    <string name="check">check</string>
+    <string name="easterDay_default">Month 00</string>
+    <string name="easterDay">Easter Day</string>
+    <string name="year">Year</string>
 </resources>

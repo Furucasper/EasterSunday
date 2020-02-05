@@ -15,7 +15,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="5dp"
         android:fontFamily="@font/kanit_extralight"
-        android:text="powerd by Furucasper."
+        android:text="@string/dev_credit"
         android:textSize="12sp" />
 
     <TextView
@@ -25,7 +25,7 @@
         android:layout_above="@id/inYear"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="60dp"
-        android:text="easter:\nsunday"
+        android:text="@string/appName"
         android:fontFamily="@font/baloo_tamma"
         android:lineSpacingExtra="-60dp"
         android:textColor="@color/colorBlacklightgreen"
@@ -38,8 +38,8 @@
         android:layout_centerInParent="true"
         android:ems="10"
         android:fontFamily="@font/kanit"
-        android:hint="Year"
-        android:background="@drawable/button_white"
+        android:hint="@string/year"
+        android:background="@drawable/edittext_white"
         android:imeOptions="actionDone"
         android:inputType="number"
         android:textAlignment="center"
@@ -54,9 +54,9 @@
         android:layout_below="@id/inYear"
         android:layout_centerInParent="true"
         android:layout_marginTop="50dp"
-        android:fontFamily="@font/kanit_semibold_italic"
-        android:text="check"
         android:background="@drawable/button_gradient_one"
+        android:fontFamily="@font/kanit_semibold_italic"
+        android:text="@string/check"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
         android:textSize="25sp" />

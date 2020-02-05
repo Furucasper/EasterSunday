@@ -18,8 +18,7 @@ public class MainActivity extends AppCompatActivity {
 
     private EditText year;
     private Button btnCheck;
-    static String eggday;
-    static String aYear;
+    static String aYear , eggday;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -68,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    boolean doubleBackToExitPressedOnce = false;
+    private boolean doubleBackToExitPressedOnce = false;
     @Override
     public void onBackPressed() {
         if (doubleBackToExitPressedOnce) {
@@ -78,7 +77,6 @@ public class MainActivity extends AppCompatActivity {
 
         this.doubleBackToExitPressedOnce = true;
         Toast.makeText(this, "Press again to exit", Toast.LENGTH_SHORT).show();
-
         new Handler().postDelayed(new Runnable() {
 
             @Override
